@@ -135,7 +135,7 @@ public class JDBC02_execute_executeUpdate {
 	      ORNEK7: isciler tablosunun son halini goruntuleyin.
 	     ========================================================================*/
 
-        System.out.println("================ Isciler Tablosu Son Durum ================");
+        System.out.println("================ Isciler Zamli Maas Tablosu ================");
 
         ResultSet iscilerTablosu3 = st.executeQuery(selectQuery);
 
