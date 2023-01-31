@@ -45,7 +45,7 @@ public class JDC01_Query01 {
              */
         }
 
-        // 6 - Olusturulan baglantilari kapatalim
+        // 6 - Olusturulan nesneleri close() ile kapatalim ki bellekten kaldirilsin.
 
         con.close();
         st.close();
